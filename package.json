@@ -1,7 +1,7 @@
 {
   "name": "lycant-library",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Package to use a dropdown",
   "author": "mayccos",
   "license": "MIT",
   "repository": "mayccos/lycant-library",
