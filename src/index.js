@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.module.css'
 import PropTypes from 'prop-types'
 
-export const ExampleComponent = ({
+export const DropdownComponent = ({
   defaultValue,
   options,
   label,
@@ -35,7 +35,7 @@ export const ExampleComponent = ({
   )
 }
 // Prop-Types
-ExampleComponent.propTypes = {
+DropdownComponent.propTypes = {
   label: PropTypes.string,
   defaultValue: PropTypes.string,
   options: PropTypes.array,

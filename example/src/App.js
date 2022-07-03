@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ExampleComponent } from 'lycant-library'
+import { DropdownComponent } from 'lycant-library'
 import 'lycant-library/dist/index.css'
 
 const departments = [
@@ -23,7 +23,7 @@ const departments = [
 
 const App = () => {
   return (
-    <ExampleComponent
+    <DropdownComponent
       selectName='departments'
       defaultValue='select a department...'
       options={departments}
